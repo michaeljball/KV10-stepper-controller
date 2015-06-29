@@ -1,0 +1,175 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="27">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKV10Z7"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKV10Z7"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKV10Z7"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKV10Z7/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKV10Z7/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MKV10Z7/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Asm_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherC</name>
+      <value>-specs=nosys.specs -specs=nano.specs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="27">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKV10Z7"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKV10Z7"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKV10Z7"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKV10Z7/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKV10Z7/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MKV10Z7/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherCpp</name>
+      <value>-specs=nosys.specs -specs=nano.specs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MKV10Z32VLF7"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2015-06-18, 12:45:21" FileAge="1434645921000" FileType="1048576" CompNumb="19" />
+      <File Name="Sources/Events.c" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="131328" />
+      <File Name="Generated_Code/WAIT1.c" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="21" />
+      <File Name="Generated_Code/osa1.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="13" />
+      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2015-06-18, 12:45:21" FileAge="1434645921000" FileType="1048576" CompNumb="18" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2015-06-18, 12:45:21" FileAge="1434645921000" FileType="1048576" CompNumb="18" />
+      <File Name="SDK/platform/devices/MKV10Z7/include/MKV10Z7.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Generated_Code/osa1.c" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="13" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/devices/MKV10Z7/startup/gcc/startup_MKV10Z7.S" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2015-06-18, 12:45:21" FileAge="1434645921000" FileType="1048576" CompNumb="19" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="16384" CompNumb="4" />
+      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/devices/MKV10Z7/include/MKV10Z7_extension.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/MKV10Z7/startup/system_MKV10Z7.c" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="8" CompNumb="4" />
+      <File Name="Sources/main.c" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="128" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="8" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="Documentation/KV10-Blink.txt" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="3072" />
+      <File Name="SDK/platform/devices/MKV10Z7/include/MKV10Z7_features.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Documentation/KV10-Blink_Settings.xml" FileDate="2015-06-29, 09:57:40" FileAge="1435586260000" FileType="3072" />
+      <File Name="Generated_Code/board.h" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/gpio1.h" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="18" />
+      <File Name="SDK/platform/CMSIS/Include/core_cm0plus.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Generated_Code/SDK/platform/devices/MKV10Z7/startup/system_MKV10Z7.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="18" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="8" />
+      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="4" />
+      <File Name="ProjectInfo.xml" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="13" />
+      <File Name="SDK/platform/system/src/clock/MKV10Z7/fsl_clock_MKV10Z7.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/hal/src/sim/MKV10Z7/fsl_sim_hal_MKV10Z7.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="5" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="13" />
+      <File Name="SDK/platform/system/src/clock/MKV10Z7/fsl_clock_MKV10Z7.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="15" />
+      <File Name="SDK/platform/hal/src/sim/MKV10Z7/fsl_sim_hal_MKV10Z7.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="Documentation/doxygen/KV10-Blink_project.txt" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/devices/MKV10Z7/include/fsl_bitaccess.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="4" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="15" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2015-06-18, 12:09:06" FileAge="1434643746000" FileType="1048576" CompNumb="13" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="9" />
+      <File Name="Sources/Events.h" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="131328" />
+      <File Name="Generated_Code/WAIT1.h" FileDate="2015-06-18, 12:45:22" FileAge="1434645922000" FileType="45637" CompNumb="21" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2015-06-18, 12:45:21" FileAge="1434645921000" FileType="1048576" CompNumb="18" />
+      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2015-06-18, 12:09:05" FileAge="1434643745000" FileType="1048576" CompNumb="5" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>3</CodeGenReference>
+</CodeGenerationInfo>

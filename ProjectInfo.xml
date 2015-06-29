@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKV10Z32xxx7</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>8192</SRAMsize>
+    <FLASHsize>32k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/sim/MKV10Z7/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/MKV10Z7/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/inc/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/osa/inc/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/drivers/inc/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/include/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/startup/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/SDK/platform/devices/MKV10Z7/startup/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Sources/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/startup/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/drivers/src/gpio/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/gpio/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/mcg/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/osc/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/port/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/sim/MKV10Z7/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/osa/src/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/MKV10Z7/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/interrupt/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Sources/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Static_Code/System/</Path>
+      <Path>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/startup/gcc/</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/WAIT1.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/clockMan1.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/gpio1.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/hardware_init.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/osa1.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/pin_mux.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/startup/system_MKV10Z7.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/startup.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/drivers/src/gpio/fsl_gpio_common.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/drivers/src/gpio/fsl_gpio_driver.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/gpio/fsl_gpio_hal.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/mcg/fsl_mcg_hal.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/osc/fsl_osc_hal.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/port/fsl_port_hal.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/sim/MKV10Z7/fsl_sim_hal_MKV10Z7.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/osa/src/fsl_os_abstraction_bm.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/MKV10Z7/fsl_clock_MKV10Z7.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/fsl_clock_manager.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/fsl_clock_manager_common.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Sources/Events.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Sources/main.c</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Static_Code/System/PE_low_level_init.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/PE_low_level_init.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/SDK/platform/devices/MKV10Z7/startup/system_MKV10Z7.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/WAIT1.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/board.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/clockMan1.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/gpio1.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/osa1.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Generated_Code/pin_mux.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/arm_common_tables.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/arm_const_structs.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/arm_math.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/core_cm0plus.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/core_cmFunc.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/core_cmInstr.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/CMSIS/Include/core_cmSimd.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/include/MKV10Z7.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/include/MKV10Z7_extension.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/include/MKV10Z7_features.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/include/fsl_bitaccess.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/fsl_device_registers.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/startup.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/drivers/inc/fsl_gpio_driver.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/fsl_gpio_hal.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/fsl_mcg_hal.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/fsl_mcg_hal_modes.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/fsl_osc_hal.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/fsl_port_hal.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/inc/fsl_sim_hal.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/hal/src/sim/MKV10Z7/fsl_sim_hal_MKV10Z7.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/osa/inc/fsl_os_abstraction.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/osa/inc/fsl_os_abstraction_bm.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/inc/fsl_clock_manager.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/inc/fsl_interrupt_manager.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/system/src/clock/MKV10Z7/fsl_clock_MKV10Z7.h</PathName>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/Sources/Events.h</PathName>
+    </GeneratedHs>
+    <GeneratedASMs>
+      <PathName>/home/ballmik/workspace.kds/KV10-Blink-Step-Bipolar2/SDK/platform/devices/MKV10Z7/startup/gcc/startup_MKV10Z7.S</PathName>
+    </GeneratedASMs>
+  </FILES>
+  <OPTIONS>
+    <BuildOptions>
+      <CCoptList>
+        <Option>-D CPU_MKV10Z32VLF7</Option>
+        <Option>-D FSL_OSA_BM_TIMER_CONFIG=2</Option>  
+      </CCoptList>
+    </BuildOptions>
+  </OPTIONS>
+</export>
